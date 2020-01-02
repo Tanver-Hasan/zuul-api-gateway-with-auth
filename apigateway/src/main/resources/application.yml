@@ -1,0 +1,18 @@
+zuul:
+    routes:
+        api1:
+            url : http://localhost:3011/
+        api2:
+            url: http://localhost:3012/
+ribbon:
+    eureka:
+        enabled: false
+server:
+    port: 3005
+auth0:
+    audience: http://allapi.com
+spring:
+    security:
+        oauth2:
+            resourceserver:
+                jwt.issuer-uri: https://tanver-custom.eu.auth0.com/

@@ -1,0 +1,12 @@
+server:
+  port: 3011
+
+auth0:
+  audience: http://api1.com
+spring:
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: https://tanver-custom.eu.auth0.com/
+          

@@ -19,3 +19,9 @@
 /apigateway/bin
 /apigateway/build
 /apigateway/gradle
+
+./**/.env
+
+/graphql-mongo-typescript/.env
+/graphql-mongo-typescript/dist
+/graphql-mongo-typescript/node_modules

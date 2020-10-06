@@ -1,6 +1,6 @@
 ### Summary
 
-This project is a simple demenostration of micoservice achitectere. It uses API gateway (Netflix Zuul) as the frontdoor for bacend API 
+This project is a simple demenostration of micoservice achitectere. It uses API gateway (Netflix Zuul) as the frontdoor for backend API 
 
 #### Architecture 
 
